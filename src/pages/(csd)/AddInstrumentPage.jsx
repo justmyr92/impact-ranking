@@ -401,7 +401,7 @@ const AddInstrumentPage = () => {
                 })
             );
 
-            navigate("/instruments");
+            navigate("/csd/instruments");
         } catch (error) {
             console.error("Error submitting instrument data:", error);
             // Handle error state or display error message to user
